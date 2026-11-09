@@ -1,0 +1,235 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #F8F5F0;
+    color: #252525;
+}
+
+header {
+    background-color: #141E35;
+    padding: 18px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.nav a, .footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.login, .signup {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+.signup {
+    background-color: #C8885B;
+    border: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 12%;
+    gap: 30px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.welcome {
+    background-color: #F0E3D7;
+    color: #B87548;
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin: 18px 0 10px;
+}
+
+.hero h1 span {
+    color: #C8885B;
+}
+
+.hero p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+}
+
+.discover {
+    display: inline-block;
+    background-color: #C8885B;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+.hero-image {
+    width: 48%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.popular {
+    padding: 10px 12% 30px;
+}
+
+.section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title a {
+    color: #252525;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    background-color: white;
+    width: 25%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content span {
+    background-color: #F0E3D7;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 10px;
+}
+
+.card h3 {
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.card p {
+    font-size: 10px;
+    color: #666;
+}
+
+.card-content a {
+    display: inline-block;
+    background-color: #F5F0EA;
+    color: #252525;
+    padding: 7px 12px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.how {
+    background-color: #F5F1EC;
+    text-align: center;
+    padding: 25px 12%;
+}
+
+.how h2 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.how > p {
+    font-size: 14px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.step {
+    width: 30%;
+}
+
+.step h3 {
+    font-size: 28px;
+    margin: 5px;
+}
+
+.step h4 {
+    font-size: 13px;
+}
+
+.step p {
+    font-size: 11px;
+}
+
+.arrow {
+    font-size: 25px;
+}
+
+.footer {
+    background-color: #141E35;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.footer p {
+    color: white;
+    font-size: 10px;
+}
